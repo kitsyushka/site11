@@ -38,8 +38,8 @@
     }
 
     button {
-      background: $white;
       @include rem(border-radius, 50px);
+      background: $white;
       height: 14px;
       opacity: .5;
       width: 14px;
@@ -61,7 +61,8 @@
   }
 
   &__inner {
-    @include rem(padding, 165px 0);
+    @include rem(padding-top, 165px);
+    @include rem(padding-bottom, 165px);
     align-items: center;
     display: flex;
     height: 100%;

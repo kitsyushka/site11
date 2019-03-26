@@ -14,7 +14,7 @@
   }
 
   .mail {
-    @include rem(padding-bottom, 0 0 79px 0);
+    @include rem(padding-bottom, 79px);
     display: flex;
     justify-content: center;
   }
@@ -25,8 +25,9 @@
     @include rem(height, 50px);
     @include rem(padding-bottom, 5px);
     @include rem(padding-left, 24px);
-    @include rem(width, 580px);
+    @include rem(max-width, 580px);
     border: 0;
+    width: 100%;
   }
 
   button {
@@ -66,7 +67,7 @@
 
   @include media-breakpoint-down(md) {
     .mail {
-      @include rem(padding, 0 0 79px);
+      @include rem(padding-bottom, 79px);
     }
 
     h3 {
@@ -74,13 +75,13 @@
     }
 
     form {
-      @include rem(padding-left, 0);
+      padding-left: 0;
     }
   }
 
   @include media-breakpoint-down(sm) {
     .mail {
-      @include rem(padding, 0 0 79px);
+      @include rem(padding-bottom, 79px);
     }
 
     form {
@@ -94,9 +95,9 @@
 
       button {
         @include rem(font-size, 12px);
-        @include rem(margin-left, 0);
         @include rem(width, 50px);
         border-radius: 0 5px;
+        margin-left: 0;
       }
     }
   }

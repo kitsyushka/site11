@@ -5084,16 +5084,16 @@ h4 {
 p {
   margin-bottom: 10px; }
 
-/* line 82, /var/www/theme/sass/base/_base.scss */
+/* line 81, /var/www/theme/sass/base/_base.scss */
 p:last-child {
   margin-bottom: 0; }
 
-/* line 86, /var/www/theme/sass/base/_base.scss */
+/* line 85, /var/www/theme/sass/base/_base.scss */
 p:empty {
   display: none; }
 
 @media (min-width: 1200px) {
-  /* line 92, /var/www/theme/sass/base/_base.scss */
+  /* line 91, /var/www/theme/sass/base/_base.scss */
   .container {
     max-width: 940px; } }
 
@@ -5166,7 +5166,7 @@ input[type='checkbox'] + label:before {
   width: 10px;
   z-index: 1; }
 
-/* line 60, /var/www/theme/sass/base/_forms.scss */
+/* line 57, /var/www/theme/sass/base/_forms.scss */
 input[type='radio'] {
   -webkit-appearance: radio;
   -moz-appearance: radio;
@@ -5177,13 +5177,13 @@ input[type='radio'] {
   padding: 0;
   width: 0; }
 
-/* line 68, /var/www/theme/sass/base/_forms.scss */
+/* line 65, /var/www/theme/sass/base/_forms.scss */
 input[type='radio'] + label {
   display: inline-block;
   padding-left: 20px;
   position: relative; }
 
-/* line 73, /var/www/theme/sass/base/_forms.scss */
+/* line 70, /var/www/theme/sass/base/_forms.scss */
 input[type='radio'] + label:before {
   border-radius: 50%;
   content: '';
@@ -5194,7 +5194,7 @@ input[type='radio'] + label:before {
   width: 10px;
   z-index: 1; }
 
-/* line 90, /var/www/theme/sass/base/_forms.scss */
+/* line 83, /var/www/theme/sass/base/_forms.scss */
 textarea {
   resize: none;
   width: 100%; }
@@ -5261,9 +5261,9 @@ ul {
 
 /* line 40, /var/www/theme/sass/components/page-elements/blocks/_homepage_slider.scss */
 .slide-front-page-wrap .slick-dots button {
-  background: #ffffff;
   border-radius: 50px;
   border-radius: 3.125rem;
+  background: #ffffff;
   height: 14px;
   opacity: .5;
   width: 14px; }
@@ -5286,8 +5286,10 @@ ul {
 
 /* line 63, /var/www/theme/sass/components/page-elements/blocks/_homepage_slider.scss */
 .slide-front-page__inner {
-  padding: 165px 0;
-  padding: 10.3125rem 0;
+  padding-top: 165px;
+  padding-top: 10.3125rem;
+  padding-bottom: 165px;
+  padding-bottom: 10.3125rem;
   -webkit-box-align: center;
   -ms-flex-align: center;
   align-items: center;
@@ -5297,17 +5299,17 @@ ul {
   height: 100%; }
 
 @media (max-width: 1199.98px) {
-  /* line 71, /var/www/theme/sass/components/page-elements/blocks/_homepage_slider.scss */
+  /* line 72, /var/www/theme/sass/components/page-elements/blocks/_homepage_slider.scss */
   .slide-front-page .phone img {
     height: 370px;
     height: 23.125rem;
     width: auto; } }
 
 @media (max-width: 991.98px) {
-  /* line 78, /var/www/theme/sass/components/page-elements/blocks/_homepage_slider.scss */
+  /* line 79, /var/www/theme/sass/components/page-elements/blocks/_homepage_slider.scss */
   .slide-front-page .phone img {
     display: none; }
-  /* line 82, /var/www/theme/sass/components/page-elements/blocks/_homepage_slider.scss */
+  /* line 83, /var/www/theme/sass/components/page-elements/blocks/_homepage_slider.scss */
   .slide-front-page .text-content {
     padding: 0 0 0 15px; } }
 
@@ -5389,8 +5391,8 @@ ul {
 
 /* line 16, /var/www/theme/sass/components/page-elements/blocks/_subscription.scss */
 .subscription .mail {
-  padding-bottom: 0 0 79px 0;
-  padding-bottom: 0 0 4.9375rem 0;
+  padding-bottom: 79px;
+  padding-bottom: 4.9375rem;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -5410,11 +5412,12 @@ ul {
   padding-bottom: 0.3125rem;
   padding-left: 24px;
   padding-left: 1.5rem;
-  width: 580px;
-  width: 36.25rem;
-  border: 0; }
+  max-width: 580px;
+  max-width: 36.25rem;
+  border: 0;
+  width: 100%; }
 
-/* line 32, /var/www/theme/sass/components/page-elements/blocks/_subscription.scss */
+/* line 33, /var/www/theme/sass/components/page-elements/blocks/_subscription.scss */
 .subscription button {
   border-radius: 5px;
   border-radius: 0.3125rem;
@@ -5430,7 +5433,7 @@ ul {
   border: 0;
   text-transform: uppercase; }
 
-/* line 43, /var/www/theme/sass/components/page-elements/blocks/_subscription.scss */
+/* line 44, /var/www/theme/sass/components/page-elements/blocks/_subscription.scss */
 .subscription .image-wrap {
   padding-bottom: 134px;
   padding-bottom: 8.375rem;
@@ -5441,7 +5444,7 @@ ul {
   -ms-flex-pack: center;
   justify-content: center; }
 
-/* line 48, /var/www/theme/sass/components/page-elements/blocks/_subscription.scss */
+/* line 49, /var/www/theme/sass/components/page-elements/blocks/_subscription.scss */
 .subscription .image-wrap img {
   height: 36px;
   height: 2.25rem;
@@ -5449,63 +5452,62 @@ ul {
   margin-right: 1.9375rem;
   width: auto; }
 
-/* line 54, /var/www/theme/sass/components/page-elements/blocks/_subscription.scss */
+/* line 55, /var/www/theme/sass/components/page-elements/blocks/_subscription.scss */
 .subscription .image-wrap img:first-child {
   margin-left: 31px;
   margin-left: 1.9375rem; }
 
 @media (max-width: 1199.98px) {
-  /* line 61, /var/www/theme/sass/components/page-elements/blocks/_subscription.scss */
+  /* line 62, /var/www/theme/sass/components/page-elements/blocks/_subscription.scss */
   .subscription form input {
     width: 400px;
     width: 25rem; } }
 
 @media (max-width: 991.98px) {
-  /* line 68, /var/www/theme/sass/components/page-elements/blocks/_subscription.scss */
+  /* line 69, /var/www/theme/sass/components/page-elements/blocks/_subscription.scss */
   .subscription .mail {
-    padding: 0 0 79px;
-    padding: 0 0 4.9375rem; }
-  /* line 72, /var/www/theme/sass/components/page-elements/blocks/_subscription.scss */
+    padding-bottom: 79px;
+    padding-bottom: 4.9375rem; }
+  /* line 73, /var/www/theme/sass/components/page-elements/blocks/_subscription.scss */
   .subscription h3 {
     padding: 17px 10px 41px 10px;
     padding: 1.0625rem 0.625rem 2.5625rem 0.625rem; }
-  /* line 76, /var/www/theme/sass/components/page-elements/blocks/_subscription.scss */
+  /* line 77, /var/www/theme/sass/components/page-elements/blocks/_subscription.scss */
   .subscription form {
     padding-left: 0; } }
 
 @media (max-width: 767.98px) {
-  /* line 82, /var/www/theme/sass/components/page-elements/blocks/_subscription.scss */
+  /* line 83, /var/www/theme/sass/components/page-elements/blocks/_subscription.scss */
   .subscription .mail {
-    padding: 0 0 79px;
-    padding: 0 0 4.9375rem; }
-  /* line 86, /var/www/theme/sass/components/page-elements/blocks/_subscription.scss */
+    padding-bottom: 79px;
+    padding-bottom: 4.9375rem; }
+  /* line 87, /var/www/theme/sass/components/page-elements/blocks/_subscription.scss */
   .subscription form {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex; }
-  /* line 89, /var/www/theme/sass/components/page-elements/blocks/_subscription.scss */
+  /* line 90, /var/www/theme/sass/components/page-elements/blocks/_subscription.scss */
   .subscription form input {
     padding: 5px 20px;
     padding: 0.3125rem 1.25rem;
     border-radius: 5px 0 0 5px;
     width: auto; }
-  /* line 95, /var/www/theme/sass/components/page-elements/blocks/_subscription.scss */
+  /* line 96, /var/www/theme/sass/components/page-elements/blocks/_subscription.scss */
   .subscription form button {
     font-size: 12px;
     font-size: 0.75rem;
-    margin-left: 0;
     width: 50px;
     width: 3.125rem;
-    border-radius: 0 5px; } }
+    border-radius: 0 5px;
+    margin-left: 0; } }
 
 /* line 1, /var/www/theme/sass/components/page-elements/layout/_header.scss */
 .logo img {
   max-height: 43px;
   max-height: 2.6875rem;
-  max-height: 43px;
   width: auto; }
 
-/* line 7, /var/www/theme/sass/components/page-elements/layout/_header.scss */
+/* line 6, /var/www/theme/sass/components/page-elements/layout/_header.scss */
 .header {
   left: 0;
   position: absolute;
@@ -5513,35 +5515,41 @@ ul {
   top: 0;
   z-index: 1; }
 
-/* line 14, /var/www/theme/sass/components/page-elements/layout/_header.scss */
+/* line 13, /var/www/theme/sass/components/page-elements/layout/_header.scss */
 .header a {
   font-size: 22px;
   font-size: 1.375rem;
-  font-weight: 700px;
-  font-weight: 43.75rem; }
+  font-weight: 700; }
 
-/* line 21, /var/www/theme/sass/components/page-elements/layout/_header.scss */
+/* line 19, /var/www/theme/sass/components/page-elements/layout/_header.scss */
 .header .main-menu ul {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
   padding-left: 0; }
 
-/* line 25, /var/www/theme/sass/components/page-elements/layout/_header.scss */
+/* line 23, /var/www/theme/sass/components/page-elements/layout/_header.scss */
 .header .main-menu ul li {
-  list-style: none;
-  padding: 0 36px; }
+  padding-left: 36px;
+  padding-left: 2.25rem;
+  padding-right: 36px;
+  padding-right: 2.25rem;
+  list-style: none; }
 
-/* line 30, /var/www/theme/sass/components/page-elements/layout/_header.scss */
+/* line 29, /var/www/theme/sass/components/page-elements/layout/_header.scss */
 .header .main-menu ul li:last-child {
   padding-right: 0; }
 
-/* line 34, /var/www/theme/sass/components/page-elements/layout/_header.scss */
+/* line 33, /var/www/theme/sass/components/page-elements/layout/_header.scss */
 .header .main-menu ul a {
   text-decoration: none; }
 
-/* line 40, /var/www/theme/sass/components/page-elements/layout/_header.scss */
+/* line 39, /var/www/theme/sass/components/page-elements/layout/_header.scss */
 .header-inner {
+  padding-bottom: 61px;
+  padding-bottom: 3.8125rem;
+  padding-top: 61px;
+  padding-top: 3.8125rem;
   -webkit-box-align: center;
   -ms-flex-align: center;
   align-items: center;
@@ -5551,7 +5559,6 @@ ul {
   -webkit-box-pack: justify;
   -ms-flex-pack: justify;
   justify-content: space-between;
-  padding: 61px 0;
   position: relative; }
 
 /* line 49, /var/www/theme/sass/components/page-elements/layout/_header.scss */
@@ -5564,15 +5571,16 @@ ul {
     display: none; } }
 
 @media (max-width: 767.98px) {
-  /* line 63, /var/www/theme/sass/components/page-elements/layout/_header.scss */
+  /* line 60, /var/www/theme/sass/components/page-elements/layout/_header.scss */
   .burger .icon-menu img {
     height: 30px;
+    height: 1.875rem;
     width: auto; }
-  /* line 71, /var/www/theme/sass/components/page-elements/layout/_header.scss */
+  /* line 65, /var/www/theme/sass/components/page-elements/layout/_header.scss */
   .header .main-menu {
     position: absolute;
     right: 0; }
-  /* line 75, /var/www/theme/sass/components/page-elements/layout/_header.scss */
+  /* line 69, /var/www/theme/sass/components/page-elements/layout/_header.scss */
   .header .main-menu ul {
     display: none;
     -webkit-box-orient: vertical;
@@ -5582,7 +5590,7 @@ ul {
     position: absolute;
     right: 0;
     top: 20px; }
-  /* line 82, /var/www/theme/sass/components/page-elements/layout/_header.scss */
+  /* line 76, /var/www/theme/sass/components/page-elements/layout/_header.scss */
   .header .main-menu ul li {
     padding: 0;
     text-align: right; } }

@@ -1,6 +1,5 @@
 .logo img {
   @include rem(max-height, 43px);
-  max-height: 43px;
   width: auto;
 }
 
@@ -13,7 +12,7 @@
 
   a {
     @include rem(font-size, 22px);
-    @include rem(font-weight,700px);
+    font-weight: 700;
   }
 
   .main-menu {
@@ -22,8 +21,9 @@
       padding-left: 0;
 
       li {
+        @include rem(padding-left, 36px);
+        @include rem(padding-right, 36px);
         list-style: none;
-        padding: 0 36px;
       }
 
       li:last-child {
@@ -37,10 +37,11 @@
   }
 
   &-inner {
+    @include rem(padding-bottom, 61px);
+    @include rem(padding-top, 61px);
     align-items: center;
     display: flex;
     justify-content: space-between;
-    padding: 61px 0;
     position: relative;
   }
 }
@@ -56,31 +57,25 @@
 }
 
 @include media-breakpoint-down(sm) {
-  .burger .icon-menu {
-
-      img {
-        height: 30px;
-        width: auto;
-      }
-    }
+  .burger .icon-menu img {
+    @include rem(height, 30px)
+    width: auto;
   }
 
-  .header {
-    .main-menu {
+  .header .main-menu {
+    position: absolute;
+    right: 0;
+
+    ul {
+      display: none;
+      flex-direction: column;
       position: absolute;
       right: 0;
+      top: 20px;
 
-      ul {
-        display: none;
-        flex-direction: column;
-        position: absolute;
-        right: 0;
-        top: 20px;
-
-        li {
-          padding: 0;
-          text-align: right;
-        }
+      li {
+        padding: 0;
+        text-align: right;
       }
     }
   }
