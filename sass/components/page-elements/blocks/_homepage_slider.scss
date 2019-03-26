@@ -30,8 +30,8 @@
   }
 
   &-wrap .slick-dots {
-    bottom: 25px;
-    padding-bottom: 30px;
+    @include rem(bottom, 25px);
+    @include rem(padding-bottom, 30px);
 
     button:before {
       display: none;
@@ -39,7 +39,7 @@
 
     button {
       background: $white;
-      border-radius: 50px;
+      @include rem(border-radius, 50px);
       height: 14px;
       opacity: .5;
       width: 14px;
@@ -55,21 +55,21 @@
   }
 
   .phone img {
-    height: 470px;
-    padding-left: 30px;
+    @include rem(height, 470px);
+    @include rem(padding-left, 30px);
     width: auto;
   }
 
   &__inner {
+    @include rem(padding, 165px 0);
     align-items: center;
     display: flex;
     height: 100%;
-    padding: 165px 0;
   }
 
   @include media-breakpoint-down(lg) {
     .phone img {
-      height: 370px;
+      @include rem(height, 370px);
       width: auto;
     }
   }

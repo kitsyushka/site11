@@ -1,6 +1,6 @@
 .footer {
+  @include rem(padding-top, 141px);
   background: $dark;
-  padding-bottom: 141px;
 
   p {
     color: $white;

@@ -5206,8 +5206,9 @@ ul {
 
 /* line 1, /var/www/theme/sass/components/page-elements/blocks/_footer.scss */
 .footer {
-  background: #010101;
-  padding-bottom: 141px; }
+  padding-top: 141px;
+  padding-top: 8.8125rem;
+  background: #010101; }
 
 /* line 5, /var/www/theme/sass/components/page-elements/blocks/_footer.scss */
 .footer p {
@@ -5250,7 +5251,9 @@ ul {
 /* line 32, /var/www/theme/sass/components/page-elements/blocks/_homepage_slider.scss */
 .slide-front-page-wrap .slick-dots {
   bottom: 25px;
-  padding-bottom: 30px; }
+  bottom: 1.5625rem;
+  padding-bottom: 30px;
+  padding-bottom: 1.875rem; }
 
 /* line 36, /var/www/theme/sass/components/page-elements/blocks/_homepage_slider.scss */
 .slide-front-page-wrap .slick-dots button:before {
@@ -5260,6 +5263,7 @@ ul {
 .slide-front-page-wrap .slick-dots button {
   background: #ffffff;
   border-radius: 50px;
+  border-radius: 3.125rem;
   height: 14px;
   opacity: .5;
   width: 14px; }
@@ -5275,24 +5279,28 @@ ul {
 /* line 57, /var/www/theme/sass/components/page-elements/blocks/_homepage_slider.scss */
 .slide-front-page .phone img {
   height: 470px;
+  height: 29.375rem;
   padding-left: 30px;
+  padding-left: 1.875rem;
   width: auto; }
 
 /* line 63, /var/www/theme/sass/components/page-elements/blocks/_homepage_slider.scss */
 .slide-front-page__inner {
+  padding: 165px 0;
+  padding: 10.3125rem 0;
   -webkit-box-align: center;
   -ms-flex-align: center;
   align-items: center;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  height: 100%;
-  padding: 165px 0; }
+  height: 100%; }
 
 @media (max-width: 1199.98px) {
   /* line 71, /var/www/theme/sass/components/page-elements/blocks/_homepage_slider.scss */
   .slide-front-page .phone img {
     height: 370px;
+    height: 23.125rem;
     width: auto; } }
 
 @media (max-width: 991.98px) {
@@ -5305,56 +5313,67 @@ ul {
 
 /* line 1, /var/www/theme/sass/components/page-elements/blocks/_semi-content.scss */
 .three-columns-items {
-  padding: 118px 0 168px; }
+  padding: 118px 0 168px;
+  padding: 7.375rem 0 10.5rem; }
 
 /* line 4, /var/www/theme/sass/components/page-elements/blocks/_semi-content.scss */
 .three-columns-items img {
   height: 40px;
+  height: 2.5rem;
   width: auto; }
 
 /* line 9, /var/www/theme/sass/components/page-elements/blocks/_semi-content.scss */
 .three-columns-items .title h2 {
   padding-bottom: 15px;
+  padding-bottom: 0.9375rem;
   text-align: center; }
 
 /* line 14, /var/www/theme/sass/components/page-elements/blocks/_semi-content.scss */
 .three-columns-items .description h3 {
   padding: 0 106px 91px 103px;
+  padding: 0 6.625rem 5.6875rem 6.4375rem;
   text-align: center; }
 
 /* line 19, /var/www/theme/sass/components/page-elements/blocks/_semi-content.scss */
 .three-columns-items .item-wrapper {
+  padding-bottom: 78px;
+  padding-bottom: 4.875rem;
   display: -webkit-box;
   display: -ms-flexbox;
-  display: flex;
-  padding-bottom: 78px; }
+  display: flex; }
 
 /* line 24, /var/www/theme/sass/components/page-elements/blocks/_semi-content.scss */
 .three-columns-items .image-wrap {
+  padding-right: 30px;
+  padding-right: 1.875rem;
   -webkit-box-flex: 1;
   -ms-flex: 1 0 auto;
-  flex: 1 0 auto;
-  padding-right: 30px; }
+  flex: 1 0 auto; }
 
 /* line 29, /var/www/theme/sass/components/page-elements/blocks/_semi-content.scss */
 .three-columns-items h4 {
-  padding-bottom: 15px; }
+  padding-bottom: 15px;
+  padding-bottom: 0.9375rem; }
 
 @media (max-width: 991.98px) {
   /* line 1, /var/www/theme/sass/components/page-elements/blocks/_semi-content.scss */
   .three-columns-items {
-    padding: 50px 0 70px; }
+    padding: 50px 0 70px;
+    padding: 3.125rem 0 4.375rem; }
   /* line 36, /var/www/theme/sass/components/page-elements/blocks/_semi-content.scss */
   .three-columns-items .description h3 {
-    padding: 0 0 80px; }
+    padding: 0 0 80px;
+    padding: 0 0 5rem; }
   /* line 40, /var/www/theme/sass/components/page-elements/blocks/_semi-content.scss */
   .three-columns-items .item-wrapper {
-    padding-bottom: 40px; } }
+    padding-bottom: 40px;
+    padding-bottom: 2.5rem; } }
 
 /* line 1, /var/www/theme/sass/components/page-elements/blocks/_subscription.scss */
 .subscription {
-  background: #010101;
-  padding-top: 96px; }
+  padding-top: 96px;
+  padding-top: 6rem;
+  background: #010101; }
 
 /* line 5, /var/www/theme/sass/components/page-elements/blocks/_subscription.scss */
 .subscription h2 {
@@ -5363,107 +5382,130 @@ ul {
 
 /* line 10, /var/www/theme/sass/components/page-elements/blocks/_subscription.scss */
 .subscription h3 {
-  color: #898989;
   padding: 17px 75px 41px 97px;
+  padding: 1.0625rem 4.6875rem 2.5625rem 6.0625rem;
+  color: #898989;
   text-align: center; }
 
 /* line 16, /var/www/theme/sass/components/page-elements/blocks/_subscription.scss */
 .subscription .mail {
+  padding-bottom: 0 0 79px 0;
+  padding-bottom: 0 0 4.9375rem 0;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
   -webkit-box-pack: center;
   -ms-flex-pack: center;
-  justify-content: center;
-  padding: 0 0 79px 0; }
+  justify-content: center; }
 
 /* line 22, /var/www/theme/sass/components/page-elements/blocks/_subscription.scss */
 .subscription input {
-  border: 0;
   border-radius: 5px;
+  border-radius: 0.3125rem;
   font-size: 16px;
+  font-size: 1rem;
   height: 50px;
+  height: 3.125rem;
+  padding-bottom: 5px;
+  padding-bottom: 0.3125rem;
   padding-left: 24px;
-  width: 580px; }
+  padding-left: 1.5rem;
+  width: 580px;
+  width: 36.25rem;
+  border: 0; }
 
-/* line 31, /var/www/theme/sass/components/page-elements/blocks/_subscription.scss */
+/* line 32, /var/www/theme/sass/components/page-elements/blocks/_subscription.scss */
 .subscription button {
+  border-radius: 5px;
+  border-radius: 0.3125rem;
+  font-size: 16px;
+  font-size: 1rem;
+  height: 50px;
+  height: 3.125rem;
+  margin-left: 21px;
+  margin-left: 1.3125rem;
+  width: 126px;
+  width: 7.875rem;
   background: #fcdb00;
   border: 0;
-  border-radius: 5px;
-  font-size: 16px;
-  height: 50px;
-  margin-left: 21px;
-  text-transform: uppercase;
-  width: 126px; }
+  text-transform: uppercase; }
 
-/* line 42, /var/www/theme/sass/components/page-elements/blocks/_subscription.scss */
+/* line 43, /var/www/theme/sass/components/page-elements/blocks/_subscription.scss */
 .subscription .image-wrap {
+  padding-bottom: 134px;
+  padding-bottom: 8.375rem;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
   -webkit-box-pack: center;
   -ms-flex-pack: center;
-  justify-content: center;
-  padding-bottom: 134px; }
+  justify-content: center; }
 
-/* line 47, /var/www/theme/sass/components/page-elements/blocks/_subscription.scss */
+/* line 48, /var/www/theme/sass/components/page-elements/blocks/_subscription.scss */
 .subscription .image-wrap img {
   height: 36px;
+  height: 2.25rem;
   margin-right: 31px;
+  margin-right: 1.9375rem;
   width: auto; }
 
-/* line 53, /var/www/theme/sass/components/page-elements/blocks/_subscription.scss */
+/* line 54, /var/www/theme/sass/components/page-elements/blocks/_subscription.scss */
 .subscription .image-wrap img:first-child {
-  margin-left: 31px; }
+  margin-left: 31px;
+  margin-left: 1.9375rem; }
 
 @media (max-width: 1199.98px) {
-  /* line 60, /var/www/theme/sass/components/page-elements/blocks/_subscription.scss */
+  /* line 61, /var/www/theme/sass/components/page-elements/blocks/_subscription.scss */
   .subscription form input {
-    width: 400px; } }
+    width: 400px;
+    width: 25rem; } }
 
 @media (max-width: 991.98px) {
-  /* line 67, /var/www/theme/sass/components/page-elements/blocks/_subscription.scss */
+  /* line 68, /var/www/theme/sass/components/page-elements/blocks/_subscription.scss */
   .subscription .mail {
-    padding: 0 0 79px; }
-  /* line 71, /var/www/theme/sass/components/page-elements/blocks/_subscription.scss */
+    padding: 0 0 79px;
+    padding: 0 0 4.9375rem; }
+  /* line 72, /var/www/theme/sass/components/page-elements/blocks/_subscription.scss */
   .subscription h3 {
-    padding: 17px 10px 41px 10px; }
-  /* line 75, /var/www/theme/sass/components/page-elements/blocks/_subscription.scss */
+    padding: 17px 10px 41px 10px;
+    padding: 1.0625rem 0.625rem 2.5625rem 0.625rem; }
+  /* line 76, /var/www/theme/sass/components/page-elements/blocks/_subscription.scss */
   .subscription form {
-    padding-left: 0px; } }
+    padding-left: 0; } }
 
 @media (max-width: 767.98px) {
-  /* line 81, /var/www/theme/sass/components/page-elements/blocks/_subscription.scss */
+  /* line 82, /var/www/theme/sass/components/page-elements/blocks/_subscription.scss */
   .subscription .mail {
-    padding: 0 0 79px; }
-  /* line 85, /var/www/theme/sass/components/page-elements/blocks/_subscription.scss */
+    padding: 0 0 79px;
+    padding: 0 0 4.9375rem; }
+  /* line 86, /var/www/theme/sass/components/page-elements/blocks/_subscription.scss */
   .subscription form {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex; }
-  /* line 88, /var/www/theme/sass/components/page-elements/blocks/_subscription.scss */
+  /* line 89, /var/www/theme/sass/components/page-elements/blocks/_subscription.scss */
   .subscription form input {
-    border-radius: 0;
-    border-top-left-radius: 5px;
-    border-bottom-left-radius: 5px;
     padding: 5px 20px;
+    padding: 0.3125rem 1.25rem;
+    border-radius: 5px 0 0 5px;
     width: auto; }
-  /* line 96, /var/www/theme/sass/components/page-elements/blocks/_subscription.scss */
+  /* line 95, /var/www/theme/sass/components/page-elements/blocks/_subscription.scss */
   .subscription form button {
-    border-radius: 0;
-    border-top-right-radius: 5px;
-    border-bottom-right-radius: 5px;
+    font-size: 12px;
+    font-size: 0.75rem;
     margin-left: 0;
     width: 50px;
-    font-size: 12px; } }
+    width: 3.125rem;
+    border-radius: 0 5px; } }
 
 /* line 1, /var/www/theme/sass/components/page-elements/layout/_header.scss */
 .logo img {
   max-height: 43px;
+  max-height: 2.6875rem;
+  max-height: 43px;
   width: auto; }
 
-/* line 6, /var/www/theme/sass/components/page-elements/layout/_header.scss */
+/* line 7, /var/www/theme/sass/components/page-elements/layout/_header.scss */
 .header {
   left: 0;
   position: absolute;
@@ -5471,32 +5513,34 @@ ul {
   top: 0;
   z-index: 1; }
 
-/* line 13, /var/www/theme/sass/components/page-elements/layout/_header.scss */
+/* line 14, /var/www/theme/sass/components/page-elements/layout/_header.scss */
 .header a {
   font-size: 22px;
-  font-weight: 700; }
+  font-size: 1.375rem;
+  font-weight: 700px;
+  font-weight: 43.75rem; }
 
-/* line 20, /var/www/theme/sass/components/page-elements/layout/_header.scss */
+/* line 21, /var/www/theme/sass/components/page-elements/layout/_header.scss */
 .header .main-menu ul {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
   padding-left: 0; }
 
-/* line 24, /var/www/theme/sass/components/page-elements/layout/_header.scss */
+/* line 25, /var/www/theme/sass/components/page-elements/layout/_header.scss */
 .header .main-menu ul li {
   list-style: none;
   padding: 0 36px; }
 
-/* line 29, /var/www/theme/sass/components/page-elements/layout/_header.scss */
+/* line 30, /var/www/theme/sass/components/page-elements/layout/_header.scss */
 .header .main-menu ul li:last-child {
   padding-right: 0; }
 
-/* line 33, /var/www/theme/sass/components/page-elements/layout/_header.scss */
+/* line 34, /var/www/theme/sass/components/page-elements/layout/_header.scss */
 .header .main-menu ul a {
   text-decoration: none; }
 
-/* line 39, /var/www/theme/sass/components/page-elements/layout/_header.scss */
+/* line 40, /var/www/theme/sass/components/page-elements/layout/_header.scss */
 .header-inner {
   -webkit-box-align: center;
   -ms-flex-align: center;
@@ -5510,37 +5554,37 @@ ul {
   padding: 61px 0;
   position: relative; }
 
-/* line 48, /var/www/theme/sass/components/page-elements/layout/_header.scss */
+/* line 49, /var/www/theme/sass/components/page-elements/layout/_header.scss */
 .content-wrapper {
   position: relative; }
 
 @media (min-width: 768px) {
-  /* line 53, /var/www/theme/sass/components/page-elements/layout/_header.scss */
+  /* line 54, /var/www/theme/sass/components/page-elements/layout/_header.scss */
   .burger {
     display: none; } }
 
 @media (max-width: 767.98px) {
-  /* line 62, /var/www/theme/sass/components/page-elements/layout/_header.scss */
+  /* line 63, /var/www/theme/sass/components/page-elements/layout/_header.scss */
   .burger .icon-menu img {
     height: 30px;
     width: auto; }
-  /* line 70, /var/www/theme/sass/components/page-elements/layout/_header.scss */
+  /* line 71, /var/www/theme/sass/components/page-elements/layout/_header.scss */
   .header .main-menu {
     position: absolute;
     right: 0; }
-  /* line 74, /var/www/theme/sass/components/page-elements/layout/_header.scss */
+  /* line 75, /var/www/theme/sass/components/page-elements/layout/_header.scss */
   .header .main-menu ul {
-    top: 20px;
-    position: absolute;
-    right: 0;
+    display: none;
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
     -ms-flex-direction: column;
     flex-direction: column;
-    display: none; }
-  /* line 81, /var/www/theme/sass/components/page-elements/layout/_header.scss */
+    position: absolute;
+    right: 0;
+    top: 20px; }
+  /* line 82, /var/www/theme/sass/components/page-elements/layout/_header.scss */
   .header .main-menu ul li {
-    padding: 0px;
+    padding: 0;
     text-align: right; } }
 
 /* line 1, /var/www/theme/sass/components/pages/_news.scss */

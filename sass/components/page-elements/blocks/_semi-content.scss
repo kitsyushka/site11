@@ -1,44 +1,44 @@
 .three-columns-items {
-  padding: 118px 0 168px;
+  @include rem(padding, 118px 0 168px);
 
   img {
-    height: 40px;
+    @include rem(height, 40px);
     width: auto;
   }
 
   .title h2 {
-    padding-bottom: 15px;
+    @include rem(padding-bottom, 15px);
     text-align: center;
   }
 
   .description h3 {
-    padding: 0 106px 91px 103px;
+    @include rem(padding, 0 106px 91px 103px);
     text-align: center;
   }
 
   .item-wrapper {
+    @include rem(padding-bottom, 78px);
     display: flex;
-    padding-bottom: 78px;
   }
 
   .image-wrap {
+    @include rem(padding-right, 30px);
     flex: 1 0 auto;
-    padding-right: 30px;
   }
 
   h4 {
-    padding-bottom: 15px;
+    @include rem(padding-bottom, 15px);
   }
 
   @include media-breakpoint-down(md) {
-    padding: 50px 0 70px;
+    @include rem(padding, 50px 0 70px);
 
     .description h3 {
-      padding: 0 0 80px;
+      @include rem(padding, 0 0 80px);
     }
 
     .item-wrapper {
-      padding-bottom: 40px;
+      @include rem(padding-bottom, 40px);
     }
   }
 }
