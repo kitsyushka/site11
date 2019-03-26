@@ -41,7 +41,6 @@ input[type='checkbox'] {
     position: relative;
 
     &:before {
-      // border: 1px solid black;
       content: '';
       display: inline-block;
       height: 10px;
@@ -52,9 +51,7 @@ input[type='checkbox'] {
       z-index: 1;
     }
   }
-  // &:checked + label:before {
-  // background: red;
-  // }
+
 }
 
 input[type='radio'] {
@@ -71,7 +68,6 @@ input[type='radio'] {
     position: relative;
 
     &:before {
-      // border: 1px solid black;
       border-radius: 50%;
       content: '';
       display: inline-block;
@@ -82,9 +78,6 @@ input[type='radio'] {
       z-index: 1;
     }
   }
-  // &:checked + label:before {
-  // background: red;
-  // }
 }
 
 textarea {
