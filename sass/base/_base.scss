@@ -1,0 +1,96 @@
+html {
+  box-sizing: border-box;
+  font-family: $main-font;
+  font-size: 100%;
+
+  body {
+    height: 100%;
+  }
+
+  * {
+    @include font-smoothing;
+    box-sizing: border-box;
+    font-family: $main-font;
+  }
+}
+
+*:before,
+*:after {
+  box-sizing: border-box;
+}
+
+img {
+  display: block;
+  height: auto;
+  max-width: 100%;
+}
+
+iframe {
+  width: 100%;
+}
+
+a {
+  color: $dark;
+  text-decoration: underline;
+  transition: all .4s ease-in-out;
+
+  &:hover {
+    text-decoration: none;
+    transition: all .4s ease-in-out;
+  }
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  a {
+    color: inherit;
+    font-family: inherit;
+    font-size: inherit;
+    font-weight: inherit;
+    text-decoration: inherit;
+  }
+}
+
+h1 {
+  font-family: $main-font;
+  font-size: $h1;
+}
+
+h2 {
+  color: $h2-color;
+  font-family: $main-font;
+  font-size: $h2;
+}
+
+h3 {
+  color: $h2-color;
+  font-size: $h3;
+}
+
+h4 {
+  font-size: $h4;
+}
+
+p {
+
+  margin-bottom: 10px;
+
+  &:last-child {
+    margin-bottom: 0;
+  }
+
+  &:empty {
+    display: none;
+  }
+}
+
+@media(min-width: 1200px) {
+  .container {
+    max-width: 940px;
+  }
+}
+

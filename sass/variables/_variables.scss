@@ -1,0 +1,27 @@
+// Fonts
+@include font('Roboto', RobotoLight, 300, normal);
+@include font('Roboto', RobotoLightItalic, 300, italic);
+@include font('Roboto', RobotoRegular, 400, normal);
+@include font('Roboto', RobotoItalic, 400, italic);
+@include font('Roboto', RobotoBold, 700, normal);
+@include font('Roboto', RobotoBoldItalic, 700, italic);
+
+@include font('Encode Sans Expanded', RobotoCondensedRegular, 400, normal);
+@include font('Encode Sans Expanded', RobotoCondensedBold, 700, normal);
+
+@include font('PT Sans', ptsans, 400, normal);
+
+$main-font: 'PT Sans', sans-serif;;
+$sub-font:  'Encode Sans Expanded', sans-serif;
+
+
+$light:  300;
+$normal: 400;
+$bold:   700;
+
+// Font sizes
+$h1: 32px;
+$h2: 32px;
+$h3: 20px;
+$h4: 21px;
+

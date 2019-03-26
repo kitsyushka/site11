@@ -1,0 +1,93 @@
+input,
+button,
+input *,
+textarea,
+button * {
+  appearance: none;
+  outline: none;
+
+  &:focus,
+  &:hover,
+  &:active {
+    outline: none;
+  }
+}
+
+select,
+input[type='password'],
+input[type='email'],
+input[type='text'] {
+  padding: 6px 10px 2px;
+}
+
+input[type='button'],
+input[type='reset'],
+input[type='submit'],
+button {
+  padding: 5px;
+}
+
+input[type='checkbox'] {
+  appearance: checkbox;
+  height: 0;
+  margin: 0;
+  opacity: 0;
+  padding: 0;
+  width: 0;
+
+  + label {
+    display: block;
+    padding-left: 20px;
+    position: relative;
+
+    &:before {
+      // border: 1px solid black;
+      content: '';
+      display: inline-block;
+      height: 10px;
+      left: 0;
+      position: absolute;
+      top: 0;
+      width: 10px;
+      z-index: 1;
+    }
+  }
+  // &:checked + label:before {
+  // background: red;
+  // }
+}
+
+input[type='radio'] {
+  appearance: radio;
+  height: 0;
+  margin: 0;
+  opacity: 0;
+  padding: 0;
+  width: 0;
+
+  + label {
+    display: inline-block;
+    padding-left: 20px;
+    position: relative;
+
+    &:before {
+      // border: 1px solid black;
+      border-radius: 50%;
+      content: '';
+      display: inline-block;
+      height: 10px;
+      left: 0;
+      position: absolute;
+      width: 10px;
+      z-index: 1;
+    }
+  }
+  // &:checked + label:before {
+  // background: red;
+  // }
+}
+
+textarea {
+  resize: none;
+  width: 100%;
+}

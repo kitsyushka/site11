@@ -1,0 +1,321 @@
+// SCSS variables are information about icon's compiled state, stored under its original file name
+//
+// .icon-home {
+//   width: $icon-home-width;
+// }
+//
+// The large array-like variables contain all information about a single icon
+// $icon-home: x y offset_x offset_y width height total_width total_height image_path;
+//
+// At the bottom of this section, we provide information about the spritesheet itself
+// $spritesheet: width height image $spritesheet-sprites;
+$android-name: 'android';
+$android-x: 835px;
+$android-y: 192px;
+$android-offset-x: -835px;
+$android-offset-y: -192px;
+$android-width: 96px;
+$android-height: 96px;
+$android-total-width: 931px;
+$android-total-height: 940px;
+$android-image: 'sprite.png';
+$android: (835px, 192px, -835px, -192px, 96px, 96px, 931px, 940px, 'sprite.png', 'android', );
+$apple-name: 'apple';
+$apple-x: 734px;
+$apple-y: 192px;
+$apple-offset-x: -734px;
+$apple-offset-y: -192px;
+$apple-width: 100px;
+$apple-height: 100px;
+$apple-total-width: 931px;
+$apple-total-height: 940px;
+$apple-image: 'sprite.png';
+$apple: (734px, 192px, -734px, -192px, 100px, 100px, 931px, 940px, 'sprite.png', 'apple', );
+$facebook-ico-2x-name: 'facebook_ico@2x';
+$facebook-ico-2x-x: 841px;
+$facebook-ico-2x-y: 394px;
+$facebook-ico-2x-offset-x: -841px;
+$facebook-ico-2x-offset-y: -394px;
+$facebook-ico-2x-width: 72px;
+$facebook-ico-2x-height: 72px;
+$facebook-ico-2x-total-width: 931px;
+$facebook-ico-2x-total-height: 940px;
+$facebook-ico-2x-image: 'sprite.png';
+$facebook-ico-2x: (841px, 394px, -841px, -394px, 72px, 72px, 931px, 940px, 'sprite.png', 'facebook_ico@2x', );
+$fingerprint-name: 'fingerprint';
+$fingerprint-x: 852px;
+$fingerprint-y: 562px;
+$fingerprint-offset-x: -852px;
+$fingerprint-offset-y: -562px;
+$fingerprint-width: 43px;
+$fingerprint-height: 43px;
+$fingerprint-total-width: 931px;
+$fingerprint-total-height: 940px;
+$fingerprint-image: 'sprite.png';
+$fingerprint: (852px, 562px, -852px, -562px, 43px, 43px, 931px, 940px, 'sprite.png', 'fingerprint', );
+$flag-2x-name: 'flag@2x';
+$flag-2x-x: 706px;
+$flag-2x-y: 475px;
+$flag-2x-offset-x: -706px;
+$flag-2x-offset-y: -475px;
+$flag-2x-width: 72px;
+$flag-2x-height: 86px;
+$flag-2x-total-width: 931px;
+$flag-2x-total-height: 940px;
+$flag-2x-image: 'sprite.png';
+$flag-2x: (706px, 475px, -706px, -475px, 72px, 86px, 931px, 940px, 'sprite.png', 'flag@2x', );
+$flagg-2x-name: 'flagg@2x';
+$flagg-2x-x: 633px;
+$flagg-2x-y: 475px;
+$flagg-2x-offset-x: -633px;
+$flagg-2x-offset-y: -475px;
+$flagg-2x-width: 72px;
+$flagg-2x-height: 86px;
+$flagg-2x-total-width: 931px;
+$flagg-2x-total-height: 940px;
+$flagg-2x-image: 'sprite.png';
+$flagg-2x: (633px, 475px, -633px, -475px, 72px, 86px, 931px, 940px, 'sprite.png', 'flagg@2x', );
+$folder-2x-name: 'folder@2x';
+$folder-2x-x: 831px;
+$folder-2x-y: 293px;
+$folder-2x-offset-x: -831px;
+$folder-2x-offset-y: -293px;
+$folder-2x-width: 94px;
+$folder-2x-height: 80px;
+$folder-2x-total-width: 931px;
+$folder-2x-total-height: 940px;
+$folder-2x-image: 'sprite.png';
+$folder-2x: (831px, 293px, -831px, -293px, 94px, 80px, 931px, 940px, 'sprite.png', 'folder@2x', );
+$google-ico-2x-name: 'google_+_ico@2x';
+$google-ico-2x-x: 633px;
+$google-ico-2x-y: 562px;
+$google-ico-2x-offset-x: -633px;
+$google-ico-2x-offset-y: -562px;
+$google-ico-2x-width: 72px;
+$google-ico-2x-height: 72px;
+$google-ico-2x-total-width: 931px;
+$google-ico-2x-total-height: 940px;
+$google-ico-2x-image: 'sprite.png';
+$google-ico-2x: (633px, 562px, -633px, -562px, 72px, 72px, 931px, 940px, 'sprite.png', 'google_+_ico@2x', );
+$google-ico-2x-name: 'google_ico@2x';
+$google-ico-2x-x: 846px;
+$google-ico-2x-y: 475px;
+$google-ico-2x-offset-x: -846px;
+$google-ico-2x-offset-y: -475px;
+$google-ico-2x-width: 72px;
+$google-ico-2x-height: 72px;
+$google-ico-2x-total-width: 931px;
+$google-ico-2x-total-height: 940px;
+$google-ico-2x-image: 'sprite.png';
+$google-ico-2x: (846px, 475px, -846px, -475px, 72px, 72px, 931px, 940px, 'sprite.png', 'google_ico@2x', );
+$hooks-2x-name: 'hooks@2x';
+$hooks-2x-x: 736px;
+$hooks-2x-y: 394px;
+$hooks-2x-offset-x: -736px;
+$hooks-2x-offset-y: -394px;
+$hooks-2x-width: 104px;
+$hooks-2x-height: 78px;
+$hooks-2x-total-width: 931px;
+$hooks-2x-total-height: 940px;
+$hooks-2x-image: 'sprite.png';
+$hooks-2x: (736px, 394px, -736px, -394px, 104px, 78px, 931px, 940px, 'sprite.png', 'hooks@2x', );
+$i-pad-mini-white-facing-2x-name: 'iPad_Mini_White_facing@2x';
+$i-pad-mini-white-facing-2x-x: 0px;
+$i-pad-mini-white-facing-2x-y: 0px;
+$i-pad-mini-white-facing-2x-offset-x: 0px;
+$i-pad-mini-white-facing-2x-offset-y: 0px;
+$i-pad-mini-white-facing-2x-width: 632px;
+$i-pad-mini-white-facing-2x-height: 940px;
+$i-pad-mini-white-facing-2x-total-width: 931px;
+$i-pad-mini-white-facing-2x-total-height: 940px;
+$i-pad-mini-white-facing-2x-image: 'sprite.png';
+$i-pad-mini-white-facing-2x: (0px, 0px, 0px, 0px, 632px, 940px, 931px, 940px, 'sprite.png', 'iPad_Mini_White_facing@2x', );
+$icon-menu-name: 'icon-menu';
+$icon-menu-x: 738px;
+$icon-menu-y: 87px;
+$icon-menu-offset-x: -738px;
+$icon-menu-offset-y: -87px;
+$icon-menu-width: 100px;
+$icon-menu-height: 100px;
+$icon-menu-total-width: 931px;
+$icon-menu-total-height: 940px;
+$icon-menu-image: 'sprite.png';
+$icon-menu: (738px, 87px, -738px, -87px, 100px, 100px, 931px, 940px, 'sprite.png', 'icon-menu', );
+$icons8-android-os-96-name: 'icons8-android-os-96';
+$icons8-android-os-96-x: 734px;
+$icons8-android-os-96-y: 293px;
+$icons8-android-os-96-offset-x: -734px;
+$icons8-android-os-96-offset-y: -293px;
+$icons8-android-os-96-width: 96px;
+$icons8-android-os-96-height: 96px;
+$icons8-android-os-96-total-width: 931px;
+$icons8-android-os-96-total-height: 940px;
+$icons8-android-os-96-image: 'sprite.png';
+$icons8-android-os-96: (734px, 293px, -734px, -293px, 96px, 96px, 931px, 940px, 'sprite.png', 'icons8-android-os-96', );
+$icons8-apple-logo-filled-100-name: 'icons8-apple-logo-filled-100';
+$icons8-apple-logo-filled-100-x: 633px;
+$icons8-apple-logo-filled-100-y: 192px;
+$icons8-apple-logo-filled-100-offset-x: -633px;
+$icons8-apple-logo-filled-100-offset-y: -192px;
+$icons8-apple-logo-filled-100-width: 100px;
+$icons8-apple-logo-filled-100-height: 100px;
+$icons8-apple-logo-filled-100-total-width: 931px;
+$icons8-apple-logo-filled-100-total-height: 940px;
+$icons8-apple-logo-filled-100-image: 'sprite.png';
+$icons8-apple-logo-filled-100: (633px, 192px, -633px, -192px, 100px, 100px, 931px, 940px, 'sprite.png', 'icons8-apple-logo-filled-100', );
+$icons8-windows8-104-name: 'icons8-windows8-104';
+$icons8-windows8-104-x: 633px;
+$icons8-windows8-104-y: 87px;
+$icons8-windows8-104-offset-x: -633px;
+$icons8-windows8-104-offset-y: -87px;
+$icons8-windows8-104-width: 104px;
+$icons8-windows8-104-height: 104px;
+$icons8-windows8-104-total-width: 931px;
+$icons8-windows8-104-total-height: 940px;
+$icons8-windows8-104-image: 'sprite.png';
+$icons8-windows8-104: (633px, 87px, -633px, -87px, 104px, 104px, 931px, 940px, 'sprite.png', 'icons8-windows8-104', );
+$lemon-2x-name: 'lemon@2x';
+$lemon-2x-x: 839px;
+$lemon-2x-y: 87px;
+$lemon-2x-offset-x: -839px;
+$lemon-2x-offset-y: -87px;
+$lemon-2x-width: 86px;
+$lemon-2x-height: 88px;
+$lemon-2x-total-width: 931px;
+$lemon-2x-total-height: 940px;
+$lemon-2x-image: 'sprite.png';
+$lemon-2x: (839px, 87px, -839px, -87px, 86px, 88px, 931px, 940px, 'sprite.png', 'lemon@2x', );
+$logo-2x-name: 'logo@2x';
+$logo-2x-x: 633px;
+$logo-2x-y: 0px;
+$logo-2x-offset-x: -633px;
+$logo-2x-offset-y: 0px;
+$logo-2x-width: 298px;
+$logo-2x-height: 86px;
+$logo-2x-total-width: 931px;
+$logo-2x-total-height: 940px;
+$logo-2x-image: 'sprite.png';
+$logo-2x: (633px, 0px, -633px, 0px, 298px, 86px, 931px, 940px, 'sprite.png', 'logo@2x', );
+$mail-2x-name: 'mail@2x';
+$mail-2x-x: 633px;
+$mail-2x-y: 394px;
+$mail-2x-offset-x: -633px;
+$mail-2x-offset-y: -394px;
+$mail-2x-width: 102px;
+$mail-2x-height: 80px;
+$mail-2x-total-width: 931px;
+$mail-2x-total-height: 940px;
+$mail-2x-image: 'sprite.png';
+$mail-2x: (633px, 394px, -633px, -394px, 102px, 80px, 931px, 940px, 'sprite.png', 'mail@2x', );
+$phone-2x-name: 'phone@2x';
+$phone-2x-x: 779px;
+$phone-2x-y: 475px;
+$phone-2x-offset-x: -779px;
+$phone-2x-offset-y: -475px;
+$phone-2x-width: 66px;
+$phone-2x-height: 80px;
+$phone-2x-total-width: 931px;
+$phone-2x-total-height: 940px;
+$phone-2x-image: 'sprite.png';
+$phone-2x: (779px, 475px, -779px, -475px, 66px, 80px, 931px, 940px, 'sprite.png', 'phone@2x', );
+$pinterest-ico-2x-name: 'pinterest_ico@2x';
+$pinterest-ico-2x-x: 706px;
+$pinterest-ico-2x-y: 562px;
+$pinterest-ico-2x-offset-x: -706px;
+$pinterest-ico-2x-offset-y: -562px;
+$pinterest-ico-2x-width: 72px;
+$pinterest-ico-2x-height: 72px;
+$pinterest-ico-2x-total-width: 931px;
+$pinterest-ico-2x-total-height: 940px;
+$pinterest-ico-2x-image: 'sprite.png';
+$pinterest-ico-2x: (706px, 562px, -706px, -562px, 72px, 72px, 931px, 940px, 'sprite.png', 'pinterest_ico@2x', );
+$twitter-ico-2x-name: 'twitter_ico@2x';
+$twitter-ico-2x-x: 779px;
+$twitter-ico-2x-y: 562px;
+$twitter-ico-2x-offset-x: -779px;
+$twitter-ico-2x-offset-y: -562px;
+$twitter-ico-2x-width: 72px;
+$twitter-ico-2x-height: 72px;
+$twitter-ico-2x-total-width: 931px;
+$twitter-ico-2x-total-height: 940px;
+$twitter-ico-2x-image: 'sprite.png';
+$twitter-ico-2x: (779px, 562px, -779px, -562px, 72px, 72px, 931px, 940px, 'sprite.png', 'twitter_ico@2x', );
+$windows-name: 'windows';
+$windows-x: 633px;
+$windows-y: 293px;
+$windows-offset-x: -633px;
+$windows-offset-y: -293px;
+$windows-width: 100px;
+$windows-height: 100px;
+$windows-total-width: 931px;
+$windows-total-height: 940px;
+$windows-image: 'sprite.png';
+$windows: (633px, 293px, -633px, -293px, 100px, 100px, 931px, 940px, 'sprite.png', 'windows', );
+$spritesheet-width: 931px;
+$spritesheet-height: 940px;
+$spritesheet-image: 'sprite.png';
+$spritesheet-sprites: ($android, $apple, $facebook-ico-2x, $fingerprint, $flag-2x, $flagg-2x, $folder-2x, $google-ico-2x, $google-ico-2x, $hooks-2x, $i-pad-mini-white-facing-2x, $icon-menu, $icons8-android-os-96, $icons8-apple-logo-filled-100, $icons8-windows8-104, $lemon-2x, $logo-2x, $mail-2x, $phone-2x, $pinterest-ico-2x, $twitter-ico-2x, $windows, );
+$spritesheet: (931px, 940px, 'sprite.png', $spritesheet-sprites, );
+
+// The provided mixins are intended to be used with the array-like variables
+//
+// .icon-home {
+//   @include sprite-width($icon-home);
+// }
+//
+// .icon-email {
+//   @include sprite($icon-email);
+// }
+//
+// Example usage in HTML:
+//
+// `display: block` sprite:
+// <div class="icon-home"></div>
+//
+// To change `display` (e.g. `display: inline-block;`), we suggest using a common CSS class:
+//
+// // CSS
+// .icon {
+//   display: inline-block;
+// }
+//
+// // HTML
+// <i class="icon icon-home"></i>
+@mixin sprite-width($sprite) {
+  width: nth($sprite, 5);
+}
+
+@mixin sprite-height($sprite) {
+  height: nth($sprite, 6);
+}
+
+@mixin sprite-position($sprite) {
+  $sprite-offset-x: nth($sprite, 3);
+  $sprite-offset-y: nth($sprite, 4);
+  background-position: $sprite-offset-x  $sprite-offset-y;
+}
+
+@mixin sprite-image($sprite) {
+  $sprite-image: nth($sprite, 9);
+  background-image: url(#{$sprite-image});
+}
+
+@mixin sprite($sprite) {
+  @include sprite-image($sprite);
+  @include sprite-position($sprite);
+  @include sprite-width($sprite);
+  @include sprite-height($sprite);
+}
+
+// The `sprites` mixin generates identical output to the CSS template
+//   but can be overridden inside of SCSS
+//
+// @include sprites($spritesheet-sprites);
+@mixin sprites($sprites) {
+  @each $sprite in $sprites {
+    $sprite-name: nth($sprite, 10);
+    .#{$sprite-name} {
+      @include sprite($sprite);
+    }
+  }
+}

@@ -1,0 +1,86 @@
+.slide-front-page {
+  background-color: $top-color;
+  height: 100vh;
+  width: 100%;
+
+  .text-content {
+    padding: 73px 0 0;
+
+    p {
+      color: $p-top;
+      font-family: $main-font;
+      font-size: 16px;
+      padding: 23px 0 40px;
+    }
+
+    h3 {
+      padding-top: 22px;
+    }
+  }
+
+  .image-wrap {
+    display: flex;
+    margin: 0 -19px;
+
+    img {
+      height: 39px;
+      margin: 0 19px;
+      width: auto;
+    }
+  }
+
+  &-wrap .slick-dots {
+    bottom: 25px;
+    padding-bottom: 30px;
+
+    button:before {
+      display: none;
+    }
+
+    button {
+      background: $white;
+      border-radius: 50px;
+      height: 14px;
+      opacity: .5;
+      width: 14px;
+    }
+
+    .slick-active button {
+      opacity: 1;
+    }
+
+    li {
+      margin: 1px;
+    }
+  }
+
+  .phone img {
+    height: 470px;
+    padding-left: 30px;
+    width: auto;
+  }
+
+  &__inner {
+    align-items: center;
+    display: flex;
+    height: 100%;
+    padding: 165px 0;
+  }
+
+  @include media-breakpoint-down(lg) {
+    .phone img {
+      height: 370px;
+      width: auto;
+    }
+  }
+
+  @include media-breakpoint-down(md) {
+    .phone img {
+      display: none;
+    }
+
+    .text-content {
+      padding: 0 0 0 15px;
+    }
+  }
+}
